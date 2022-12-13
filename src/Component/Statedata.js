@@ -90,7 +90,8 @@ class Statedata extends Component {
       </Accordion.Item>
 
             )
-          })
+          }
+          )
         }
       
      

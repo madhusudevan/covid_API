@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 import { BrowserRouter as Router,Routes,Route,Link } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css'
+
 import Header from './Component/Header'
 import India from './Component/India'
 import World from './Component/World'

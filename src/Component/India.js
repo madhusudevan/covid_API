@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Card } from 'react-bootstrap'
 import Statedata from './Statedata'
+import FlushExample from '../FlushExample'
 import axios from 'axios'
 export class India extends Component {
   constructor(){
@@ -36,7 +37,8 @@ export class India extends Component {
       </Card.Body>
     </Card>
     <div className='col-md-12'>
-              <Statedata/>
+              {/* <Statedata/> */}
+              
             </div>
               </div>
               <div className='col-md-3'>
@@ -75,6 +77,7 @@ export class India extends Component {
             </div>
           </div>
         </div>
+        <FlushExample/>
       </div>
     )
   }
